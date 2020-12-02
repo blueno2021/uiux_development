@@ -1,0 +1,30 @@
+.contentContainer{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cardAndFilterContainer{
+    width:58%;
+    float:left;
+}
+.playlist{
+    width:41%;
+    float:right;
+    border-style: solid;
+    border-color: black;
+    background-color: #f8f9fa;
+}
+.filterDiv{
+    width:40;
+    padding-bottom: 3%;
+}
+.playlistItem{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.remove{
+    padding-top: 2%;
+}
+.total{
+    background-color: #f3f3f3;
+}

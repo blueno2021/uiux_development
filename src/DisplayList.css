@@ -1,0 +1,63 @@
+.card{
+    border-style: solid;
+    border-color: black;
+    width:300px
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap: 10px;
+}
+.cardInfo{
+    padding-left:3%;
+    padding-bottom: 2%;
+}
+.card img{
+    width:300px;
+}
+.cardInfo h2{
+    text-align: center;
+}
+.cardInfo button{
+    text-align: center;
+}
+
+.playlistAlbum{
+    display: flex;
+    flex-direction: row;
+    border-top: solid gray;
+    border-bottom: solid gray;
+    width:70%;
+}
+.playlistAlbum img{
+    width:125px;
+    height:100%;
+}
+.albumInfo{
+    padding-left:2%;
+    padding-top:2%;
+}
+.playlistAlbum h2{
+    margin:0
+}
+.playlistAlbum p{
+    margin:0
+}
+.playlistButtonsDiv{
+    width:30%;
+    border-top: solid gray;
+    border-bottom: solid gray;
+    text-align: center;
+    
+}
+.playlistButtonsDiv button{
+    margin-bottom:2%;
+}
+.numTimes{
+    width:40px;
+    text-align: right;
+}
+.addButtonDiv{
+    text-align: center;
+}
+
